@@ -4,15 +4,19 @@
       <img class="steve" src="assets/img/steve-burton-cut-short.png" alt="A picture of Steve Burton">
       <h1>Steve Bur<span class="kern"></span>ton</h1>
       <p>Web developer &ndash; Portland, Oregon</p><br>
-        <ul class="nav nav-tabs">
-            <li role="presentation" class="active"><a routerLink="home">Home</a></li>
-            <li role="presentation" class="active"><a routerLink="projects">Projects</a></li>
-            <li role="presentation" class="active"><a routerLink="about">About</a></li>
-        </ul>
+      <div class="navigation">
+        <span class="tab-background"><a routerLink="">Home</a></span>
+        <span class="tab-background"><a routerLink="projects">Projects</a></span>
+        <span class="tab-background"><a routerLink="about">About</a></span>
+        <div class="rule"></div>
+      </div>
+        <!-- <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a routerLink="home">Home</a></li>
+          <li role="presentation" class="active"><a routerLink="projects">Projects</a></li>
+          <li role="presentation" class="active"><a routerLink="about">About</a></li>
+        </ul> -->
     </div>
   </div>
-  <!-- <div class="spacer">
-  </div> -->
   <div>
     <router-outlet></router-outlet>
   </div>

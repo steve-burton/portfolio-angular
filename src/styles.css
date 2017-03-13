@@ -2,7 +2,7 @@
 font-family: 'Nunito Sans', sans-serif;*/
 
 
-/* ###### Shared layout page styling ###### */
+/* ###### App.Component Page ###### */
 body {
     background-image: url("assets/img/ptarmigan.jpg");
     background-attachment: fixed;
@@ -35,16 +35,29 @@ div.header p {
     color: white;
 }
 
-ul.nav-tabs li {
+div.navigation {
+    margin-top: 19px;
+}
+
+div.navigation a {
+    padding: 11px 15px 10px 15px;
+    margin-right: 3px;
+    background-color: white;
+    border-radius: 4px 4px 0px 0px;
     font-weight: 400;
+    text-decoration: none;
+    color: #383838;
 }
 
-ul.nav li {
-    margin-right: 5px;
+div.navigation a:hover {
+    background-color: #b8c6d8;
 }
 
-div.header ul.nav li a:hover {
-    cursor: pointer;
+div.rule {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    margin-top: 8px;
 }
 
 img.steve {
