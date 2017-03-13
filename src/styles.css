@@ -110,6 +110,9 @@ div.about-row {
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    width: 99.5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.about {
@@ -153,15 +156,15 @@ div.contact {
 }
 
 div.resume h1 {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 div.resume h3 {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 div.resume h4 {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 div.about p {
@@ -169,11 +172,11 @@ div.about p {
 }
 
 div.about a {
-  color: darkblue;
+  color: #254268;
 }
 
 div.about a:hover {
-  color: steelblue;
+  color: #58759b;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 3px;
   font-size: 1.02em;
@@ -210,7 +213,7 @@ div.about a:hover {
         margin-right: 0px;
     }
     img.steve {
-        width: 200px;
+        width: 230px;
         float: right;
         margin-top: 0px;
         margin-left: 0px;
@@ -228,7 +231,7 @@ div.about a:hover {
         text-shadow: 1px 1px 20px #5d6f82;
     }
     img.steve {
-        width: 180px;
+        width: 210px;
         float: right;
         margin-top: 0px;
         margin-left: 0px;
