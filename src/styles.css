@@ -77,6 +77,10 @@ div.intro {
     border-radius: 5px;
 }
 
+div.intro h2 {
+  font-size: 1.9em;
+}
+
 div.intro p {
   font-size: 1.1em;
 }
